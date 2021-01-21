@@ -1,7 +1,8 @@
-import './App.css';
+import React from 'react'
+import CalendarMenu from './components/CalendarMenu';
 
 const App = () => {
-  return <div>calendar</div>
-}
+  return <CalendarMenu />
+};
 
 export default App;
